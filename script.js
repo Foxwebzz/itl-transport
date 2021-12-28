@@ -4,6 +4,7 @@ const barBtn = document.querySelector('.bar-nav')
 const showBlockText = document.querySelectorAll('.show-block-text')
 const readMoreBtn = document.querySelectorAll('.read-more-btn')
 const closeBtn = document.querySelectorAll('.btn-close')
+const homeBtn = document.querySelector('.home-btn')
 
 
 barBtn.addEventListener('click', function() {
@@ -31,6 +32,15 @@ for (let i = 0; i < closeBtn.length; i++) {
     })
 }
 
+
+// home btn 
+homeBtn.addEventListener('click', function(){
+    homeBtn.innerText = '+3819876213'
+    setTimeout(function() {
+        homeBtn.innerText = 'Rufen Sie uns an'
+    },5000)
+})
+// home btn end
 
 
 // faq-section

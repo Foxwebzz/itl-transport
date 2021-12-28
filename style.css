@@ -122,7 +122,8 @@ li:last-child {
     background-color: #d21404;
     border: none;
     color: #fff;
-    padding: 5px 20px;
+    max-width: 250px;
+    padding: 20px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -668,6 +669,7 @@ input {
     background-color: #fff;
     padding: 20px;
     padding-top: 45px;
+    overflow-y: scroll;
 }
 .active-blog-btn {
     display: block;
