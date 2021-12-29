@@ -123,7 +123,7 @@ li:last-child {
     border: none;
     color: #fff;
     max-width: 250px;
-    padding: 20px;
+    padding: 10px 20px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -354,19 +354,17 @@ input {
 }
 .footer-section .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
 .block-footer {
     color: #fff;
-    width: 50%;
+    width: 300px;
     z-index: 1;
 }
-.block-footer:last-child {
-    text-align: right;
-}
+
 .block-footer h4 {
     font-size: 30px;
     display: inline-block;
@@ -681,6 +679,7 @@ input {
     font-size: 25px;
     cursor: pointer;
 }    
+
 
 
 @media(max-width: 880px) {
